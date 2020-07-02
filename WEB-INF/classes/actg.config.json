@@ -1,0 +1,36 @@
+{
+    "algos": [{
+        "cipherMode": "ECB",
+        "tokenRealm": "c2cecbtokenrealm",
+        "securityKey": "1111111111111111"
+    }, {
+        "cipherMode": "CBC",
+        "tokenRealm": "cbctoken2",
+        "securityKey": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+    }],
+    "identifiers": [{
+        "identifier": "tokenized-without-landingpage",
+        "tokenRealm": "cbctoken2",
+        "accountId": "84840000070@04a.com",
+        "from": "anonymous@invalid.com",
+        "to": "84840000070@04a.com"
+    }, {
+        "identifier": "tokenized-with-landingpage",
+        "tokenRealm": "realm2.com",
+        "accountId": "user2@domain.com",
+        "from": "anonymous@invalid.com",
+        "to": "user2@domain.com"
+    },{
+        "identifier": "etisalat-tokenized-with-landingpage",
+        "tokenRealm": "cbctoken2",
+        "accountId": "84964300226@uaetest.com",
+        "from": "anonymous@invalid.com",
+        "to": "84964300226@uaetest.com"
+    },{
+        "identifier": "etisalat-tokenized-without-landingpage",
+        "tokenRealm": "cbctoken2",
+        "accountId": "84964300226@uaetest.com",
+        "from": "anonymous@invalid.com",
+        "to": "84964300226@uaetest.com"
+    }]
+}

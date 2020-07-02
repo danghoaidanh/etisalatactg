@@ -1,0 +1,137 @@
+{
+    "algos": [{
+        "cipherMode": "ECB",
+        "tokenRealm": "ecbtoken",
+        "securityKey": "1111111111111111"
+    }, {
+        "cipherMode": "CBC",
+        "tokenRealm": "cbctoken2",
+        "securityKey": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+    }],
+    "identifiers": [{
+        "identifier": "tokenized-without-landingpage",
+        "tokenRealm": "cbctoken2",
+        "accountId": "84840000070@04a.com",
+        "from": "anonymous@invalid.com",
+        "to": "84840000070@04a.com"
+    }, {
+        "identifier": "tokenized-with-landingpage",
+        "tokenRealm": "realm2.com",
+        "accountId": "user2@domain.com",
+        "from": "anonymous@invalid.com",
+        "to": "user2@domain.com"
+    },{
+        "identifier": "etisalat-tokenized-with-landingpage",
+        "tokenRealm": "cbctoken2",
+        "accountId": "84964300226@uaetest.com",
+        "from": "anonymous@invalid.com",
+        "to": "84964300226@uaetest.com"
+    },{
+        "identifier": "etisalat-tokenized-without-landingpage",
+        "tokenRealm": "cbctoken2",
+        "accountId": "84964300226@uaetest.com",
+        "from": "anonymous@invalid.com",
+        "to": "84964300226@uaetest.com"
+    },{
+        "identifier": "etisalat-tokenized-without-landingpage-tc1",
+        "tokenRealm": "cbctoken2",
+        "accountId": "84964300241@uaetest.com",
+        "from": "anonymous@invalid.com",
+        "to": "84964300241@uaetest.com"
+    },{
+        "identifier": "etisalat-tokenized-without-landingpage-tc2",
+        "tokenRealm": "cbctoken2",
+        "accountId": "84964300236@uaetest.com",
+        "from": "anonymous@invalid.com",
+        "to": "84964300236@uaetest.com"
+    },{
+        "identifier": "etisalat-tokenized-without-landingpage-tc3",
+        "tokenRealm": "ecbtoken",
+        "accountId": "84964300237@uaetest.com",
+        "from": "anonymous@invalid.com",
+        "to": "84964300237@uaetest.com"
+    },{
+        "identifier": "etisalat-tokenized-without-landingpage-tc4",
+        "tokenRealm": "cbctoken2",
+        "accountId": "84964300236@uaetest.com",
+        "from": "anonymous@invalid.com",
+        "to": "84964300236@uaetest.com"
+    },{
+        "identifier": "etisalat-tokenized-without-landingpage-tc5",
+        "tokenRealm": "ecbtoken",
+        "accountId": "84964300239@uaetest.com",
+        "from": "anonymous@invalid.com",
+        "to": "84964300239@uaetest.com"
+    },{
+        "identifier": "etisalat-tokenized-with-landingpage-tc1",
+        "tokenRealm": "cbctoken2",
+        "accountId": "84964300241@uaetest.com",
+        "from": "anonymous@invalid.com",
+        "to": "84964300241@uaetest.com"
+    },{
+        "identifier": "etisalat-tokenized-with-landingpage-tc2",
+        "tokenRealm": "cbctoken2",
+        "accountId": "84964300236@uaetest.com",
+        "from": "anonymous@invalid.com",
+        "to": "84964300236@uaetest.com"
+    },{
+        "identifier": "etisalat-tokenized-with-landingpage-tc3",
+        "tokenRealm": "ecbtoken",
+        "accountId": "84964300237@uaetest.com",
+        "from": "anonymous@invalid.com",
+        "to": "84964300237@uaetest.com"
+    },{
+        "identifier": "etisalat-tokenized-with-landingpage-tc4",
+        "tokenRealm": "cbctoken2",
+        "accountId": "84964300236@uaetest.com",
+        "from": "anonymous@invalid.com",
+        "to": "84964300236@uaetest.com"
+    },{
+        "identifier": "etisalat-tokenized-with-landingpage-tc5",
+        "tokenRealm": "ecbtoken",
+        "accountId": "84964300239@uaetest.com",
+        "from": "anonymous@invalid.com",
+        "to": "84964300239@uaetest.com"
+    },{
+        "identifier": "etisalat-billing-tokenized-with-landingpage-tc4",
+        "tokenRealm": "ecbtoken",
+        "accountId": "84964300221@uaetest.com",
+        "from": "anonymous@invalid.com",
+        "to": "84964300221@uaetest.com"
+    },{
+        "identifier": "etisalat-billing-tokenized-with-landingpage-tc5",
+        "tokenRealm": "ecbtoken",
+        "accountId": "84356163676@uaetest.com",
+        "from": "anonymous@invalid.com",
+        "to": "84356163676@uaetest.com"
+    },{
+        "identifier": "etisalat-billing-tokenized-with-landingpage-tc6-yealink",
+        "tokenRealm": "ecbtoken",
+        "accountId": "84965400002@uaetest.com",
+        "from": "anonymous@invalid.com",
+        "to": "84965400002@uaetest.com"
+    },{
+        "identifier": "etisalat-billing-tokenized-with-landingpage-tc6-so",
+        "tokenRealm": "ecbtoken",
+        "accountId": "97143497130@uaetest.com",
+        "from": "anonymous@invalid.com",
+        "to": "97143497130@uaetest.com"
+    },{
+        "identifier": "etisalat-billing-tokenized-with-landingpage-tc7-pstn1",
+        "tokenRealm": "ecbtoken",
+        "accountId": "84965722346@uaetest.com",
+        "from": "anonymous@invalid.com",
+        "to": "84965722346@uaetest.com"
+    },{
+        "identifier": "etisalat-billing-tokenized-with-landingpage-tc7-pstn2",
+        "tokenRealm": "ecbtoken",
+        "accountId": "84335693607@uaetest.com",
+        "from": "anonymous@invalid.com",
+        "to": "84335693607@uaetest.com"
+    },{"identifier": "tokenized-without-landingpage-test",
+        "tokenRealm": "cbctoken2",
+        "accountId": "84964300223@uaetest.com",
+        "from": "anonymous@invalid.com",
+        "to": "84964300223@uaetest.com"
+    }]
+}

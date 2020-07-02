@@ -1,0 +1,22 @@
+{
+  "groups": [
+    {
+      "name": "",
+      "type": "com.ribbon.apis.KandyConfigModel",
+      "sourceType": "com.ribbon.apis.KandyConfigModel"
+    }
+  ],
+  "properties": [
+    {
+      "name": "algos",
+      "type": "java.util.List<java.util.LinkedHashMap>",
+      "sourceType": "com.ribbon.apis.KandyConfigModel"
+    },
+    {
+      "name": "identifiers",
+      "type": "java.util.List<java.util.LinkedHashMap>",
+      "sourceType": "com.ribbon.apis.KandyConfigModel"
+    }
+  ],
+  "hints": []
+}
